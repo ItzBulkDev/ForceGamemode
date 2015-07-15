@@ -18,7 +18,7 @@ $player = $event->getPlayer();
 if($player->isOp()){
   return true;
   }else{
-  $player->setGamemode(1);
+  $player->setGamemode(0);
   }
   }
   }
